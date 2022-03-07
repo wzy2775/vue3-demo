@@ -1,0 +1,17 @@
+/*
+ * @Autor: ziyu wang
+ * @Date: 2022-02-23 09:46:14
+ * @LastEditors: ziyu wang
+ * @LastEditTime: 2022-02-23 10:49:33
+ * @Description:
+ */
+{
+	"compilerOptions": {
+		"target": "es6",
+		"baseUrl": "./",
+		"paths": {
+			"@/*": ["src/*"]
+		}
+	},
+	"exclude": ["node_modules", "dist"]
+}

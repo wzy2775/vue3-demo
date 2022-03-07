@@ -1,0 +1,211 @@
+* {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-webkit-backface-visibility: hidden;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html,
+body {
+	width: 100%;
+	height: 100%;
+	font-family: Arial, Roboto, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+hr {
+	height: 0;
+	overflow: visible;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+a {
+	text-decoration: none;
+	background-color: transparent;
+}
+
+a:focus,
+*:focus {
+	outline: none;
+}
+
+/* 未访问的链接 */
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: #3a3c4c;
+}
+
+/* 缩写标签格式化 */
+abbr[title] {
+	border-bottom: none;
+	text-decoration: underline;
+	-webkit-text-decoration: underline dotted;
+	text-decoration: underline dotted;
+}
+
+b,
+strong,
+i,
+ins,
+del,
+s,
+big,
+small,
+em {
+	font-size: 14px;
+	font-style: normal;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+code,
+kbd,
+samp {
+	font-family: monospace, monospace;
+}
+
+sub,
+sup {
+	line-height: 0;
+	font-size: 12px;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+}
+
+button,
+input {
+	outline: none;
+	display: block;
+	overflow: visible;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+	-webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
+	border-style: none;
+}
+
+button:-moz-focusring,
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+
+/* 自定义placeholder样式 */
+::-webkit-input-placeholder {
+	color: #3a3c4c;
+}
+
+:-moz-placeholder {
+	color: #3a3c4c;
+}
+
+::-moz-placeholder {
+	color: #3a3c4c;
+}
+
+:-ms-input-placeholder {
+	color: #3a3c4c;
+}
+
+textarea {
+	overflow: auto;
+}
+
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
+	height: auto;
+}
+
+[type='search'] {
+	outline-offset: -2px;
+	-webkit-appearance: textfield;
+}
+
+[type='search']::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+	font: inherit;
+	-webkit-appearance: button;
+}
+
+dl,
+dt,
+dd,
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+th {
+	text-align: inherit;
+}
+
+/* 鼠标样式 */
+.cp {
+	cursor: pointer;
+}
+
+.cm {
+	cursor: move;
+}
+/* 清除浮动 */
+.clearfix {
+	zoom: 1;
+}
