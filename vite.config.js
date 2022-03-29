@@ -2,7 +2,7 @@
  * @Autor: ziyu wang
  * @Date: 2022-01-17 17:16:02
  * @LastEditors: ziyu wang
- * @LastEditTime: 2022-03-07 16:39:00
+ * @LastEditTime: 2022-03-07 17:13:10
  * @Description:
  */
 import { defineConfig } from 'vite';
@@ -81,7 +81,7 @@ export default defineConfig({
 	},
 	server: {
 		host: true,
-		port: 8088,
+		port: 8080,
 		open: true
 	}
 });
